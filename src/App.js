@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const CountryCapitalGame = () => {
+const App = () => {
 	const answersArray = [
 		{
 			country: 'Germany',
@@ -112,4 +112,4 @@ const CountryCapitalGame = () => {
 	);
 };
 
-export default CountryCapitalGame;
+export default App;
